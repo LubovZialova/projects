@@ -1,4 +1,4 @@
-# улучшение процесса обогащения золота 
+# Улучшение процесса обогащения золота 
 ## Исходные данные:
 gold_recovery_train_new.csv — обучающая выборка; gold_recovery_test_new.csv — тестовая выборка; gold_recovery_full_new.csv — исходные данные.
 
@@ -14,20 +14,20 @@ gold_recovery_train_new.csv — обучающая выборка; gold_recovery
 Построить и обучить модель.
 
 ## Навыки и инструменты:
-python
-pandas
-numpy
-seaborn
-matplotlib
-scipy
-sklearn.preprocessing.StandardScaler
-sklearn.tree.DecisionTreeRegressor
-sklearn.ensemble.RandomForestRegressor
-sklearn.linear_model.LinearRegression
-sklearn.metrics.mean_absolute_error
-sklearn.metrics.mean_absolute_errormake_scorer
-sklearn.model_selection.GridSearchCV
-sklearn.dummy.DummyRegressor
+- python
+- pandas
+- numpy
+- seaborn
+- matplotlib
+- scipy
+- sklearn.preprocessing.StandardScaler
+- sklearn.tree.DecisionTreeRegressor
+- sklearn.ensemble.RandomForestRegressor
+- sklearn.linear_model.LinearRegression
+- sklearn.metrics.mean_absolute_error
+- sklearn.metrics.mean_absolute_errormake_scorer
+- sklearn.model_selection.GridSearchCV
+- sklearn.dummy.DummyRegressor
 
 ## Общий вывод:
 Было проведено обучение выбранных моделей для стадий грубой и тонкой очистки, проведена проверка выбранных обученных моделей на тестовом наборе и выбрана одна для запуска в производство.
