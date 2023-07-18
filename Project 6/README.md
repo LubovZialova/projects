@@ -12,3 +12,15 @@
   - Оценить прибыльность каждого региона
   - Определить риски каждого региона техникой *Bootstrap*
   - Выбрать наиболее прибыльный регион техникой *Bootstrap*
+    
+## Навыки и инструменты:
+  - pandas
+  - numpy 
+  - seaborn 
+  - matplotlib.pyplot
+  - sklearn.metrics.mean_squared_error
+  - sklearn.model_selection.train_test_split
+  - sklearn.linear_model.LinearRegression
+
+## Общий вывод:
+Было проведено обучение выбранных моделей, а также проверка обученных моделей на тестовом наборе и выбрана одна с наилучшими характеристиками.
